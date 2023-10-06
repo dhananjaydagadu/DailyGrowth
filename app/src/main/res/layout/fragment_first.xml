@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sche"
+    tools:context=".FirstFragment">
+
+    <EditText
+        android:id="@+id/edit_Sche_1"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="299dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Goal_3" />
+
+    <EditText
+        android:id="@+id/edit_Sche_2"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="119dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edit_mealP_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Sche_1" />
+
+    <EditText
+        android:id="@+id/edit_Sche_3"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="104dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edit_mealP_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Sche_2" />
+
+    <EditText
+        android:id="@+id/edit_Sche_4"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="104dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edit_mealP_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Sche_3" />
+
+    <EditText
+        android:id="@+id/edit_Sche_5"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="104dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edit_mealP_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Sche_4" />
+
+    <EditText
+        android:id="@+id/edit_Sche_6"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="299dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Sche_5" />
+
+    <EditText
+        android:id="@+id/edit_Sche_7"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="50dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edit_Note"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Sche_6" />
+
+    <EditText
+        android:id="@+id/edit_Sche_8"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edit_Note"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Sche_7" />
+
+    <EditText
+        android:id="@+id/edit_Sche_9"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="50dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/edit_Note"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Sche_8" />
+
+    <EditText
+        android:id="@+id/edit_Sche_10"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="67dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/edit_Note"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Sche_9" />
+
+    <EditText
+        android:id="@+id/edit_mealP_2"
+        android:layout_width="123dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="72dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_mealP_1" />
+
+
+    <EditText
+        android:id="@+id/edit_mealP_3"
+        android:layout_width="123dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="72dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_mealP_2" />
+
+    <EditText
+        android:id="@+id/edit_mealP_1"
+        android:layout_width="108dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="72dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Todo_4" />
+
+    <EditText
+        android:id="@+id/edit_Todo_1"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="66dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edit_Goal_1"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/edit_Todo_2"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="66dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edit_Goal_2"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Todo_1" />
+
+    <EditText
+        android:id="@+id/edit_Todo_3"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="66dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edit_Goal_3"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Todo_2" />
+
+    <EditText
+        android:id="@+id/edit_Todo_4"
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="66dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edit_Goal_3"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Todo_3" />
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/round_button"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914" />
+
+    <EditText
+        android:id="@+id/edit_Goal_1"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="250dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_Goal_2"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="11dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Goal_1" />
+
+    <EditText
+        android:id="@+id/edit_Goal_3"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="17dp"
+        android:background="@null"
+        android:inputType="text"
+        android:maxLength="22"
+        android:maxLines="1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Goal_2" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="edit_Goal_3,edit_Goal_1,edit_Goal_2"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="edit_Todo_1,edit_Todo_2,edit_Todo_3,edit_Todo_4"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_Note"
+        android:layout_width="179dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="58dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+
+        android:lineHeight="30dp"
+        android:maxLength="120"
+        android:maxLines="5"
+        android:text="hell the note button or layout so we can fix its position so we can do whaterr we please as we planed so we dont need t "
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_mealP_3" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="edit_Sche_9,edit_Sche_8,edit_Sche_2,edit_Sche_4,edit_Sche_7,edit_Sche_1,edit_Sche_6,edit_Sche_10,edit_Sche_5,edit_Sche_3" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="edit_mealP_3,edit_mealP_1,edit_mealP_2" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="edit_Goal_3,edit_Goal_1,edit_Goal_2" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="edit_Todo_3" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="93dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioSun"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:scaleX="0.75"
+            android:scaleY="0.75"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/radioMon"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-9dp"
+            android:scaleX="0.75"
+            android:scaleY="0.75" />
+
+        <RadioButton
+            android:id="@+id/radioTue"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-8dp"
+            android:scaleX="0.75"
+            android:scaleY="0.75" />
+
+        <RadioButton
+            android:id="@+id/radioWed"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-7dp"
+            android:scaleX="0.75"
+            android:scaleY="0.75" />
+
+        <RadioButton
+            android:id="@+id/radioThu"
+            android:layout_width="26dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-5dp"
+            android:scaleX="0.75"
+            android:scaleY="0.75" />
+
+        <RadioButton
+            android:id="@+id/radioFri"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-10dp"
+            android:scaleX="0.75"
+            android:scaleY="0.75" />
+
+        <RadioButton
+            android:id="@+id/radioSat"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-10dp"
+            android:scaleX="0.75"
+            android:scaleY="0.75" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
